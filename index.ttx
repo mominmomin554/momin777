@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love for You</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background: linear-gradient(to bottom, #ffcccc, #ff99cc);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background-color: #ff6699;
+            color: white;
+            font-size: 2em;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+        }
+        .heart {
+            font-size: 5em;
+            color: red;
+        }
+        .btn {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #ff6699;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ff6699;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Love for You</h1>
+    </header>
+    <div class="content">
+        <p>Hello, <b>my dearest love</b>!</p>
+        <p>Every heartbeat of mine says your name. 💕</p>
+        <div class="heart">❤️</div>
+        <p>You're the reason I smile every day. I made this website to show how much I love you!</p>
+        <button class="btn" onclick="alert('I love you more than anything in this world! ❤️')">Click Me</button>
+    </div>
+    <footer>
+        <p>Created with ❤️ by [Your Name]</p>
+    </footer>
+</body>
+</html>
